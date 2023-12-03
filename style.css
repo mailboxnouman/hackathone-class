@@ -91,8 +91,9 @@ a.close{
 .list ul li{
     padding: 0 20px;
 }
-.list ul li a{
+.list ul li a, .frm a{
     text-decoration: none;
+    font-weight: 700;
     color: black;
 }
 .hero{
@@ -156,6 +157,9 @@ a.close{
 .help{
     text-align: center;
 }
+.help p{
+    font-style: italic;
+}
 .service h1{
     font-size: 3rem;
     line-height: 2;
@@ -164,13 +168,22 @@ a.close{
 .card-section{
     display: flex;
     flex-wrap: wrap;
-    background-color: aqua;
+    background-color: rgb(0, 0, 0);
     margin: 20px auto;
     width: 70vw;
 }
 .card{
     width: 35vw;
     height: 35vh;
+}
+.card a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-style: italic;
+}
+.card-u a{
+    color: white;
 }
 .card h1{
     font-size: 2rem;
@@ -201,6 +214,7 @@ a.close{
     background-color: #34365A;
     order: 3;
     color: white;
+    padding: 30px;
 
 }
 
@@ -214,6 +228,7 @@ a.close{
 .card:nth-of-type(6){
     background-color: #F1BB13;
     order: 6;
+    padding: 30px;
 
 }
 .card-u .learn-btn{
