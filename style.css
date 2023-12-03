@@ -935,7 +935,7 @@ a.close {
     overflow-x: hidden;
 
     .main img {
-        margin-left: -90px;
+        margin-left: -50px;
 
     }
 
@@ -1030,6 +1030,7 @@ a.close {
         max-height: 70vh;
         /* width: 100%; */
         object-fit: cover;
+        margin-left: -60px;
     }
 
     .main {
@@ -1293,7 +1294,7 @@ a.close {
 
     .main img {
         max-height: 35vh;
-        margin-left: -50px;
+        margin-left: -30px;
         /* width: 100%; */
         object-fit: cover;
     }
