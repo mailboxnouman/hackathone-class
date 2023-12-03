@@ -561,7 +561,14 @@ a.close{
     line-height: 1.8;
     transition: 1s;
 }
-
+.learn-btn{
+    padding: 15px 30px;
+    border-radius: 35px;
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    border: 3px solid black;
+}
 }
 @media (max-width: 470px) {
     .icons > a.desktop,
@@ -675,10 +682,17 @@ a.close{
     font-weight: 400;
 }
 .service h1{
-    font-size: 2.2rem;
-    line-height: 1.5;
+    font-size: 2rem;
+    line-height: 1;
     transition: 1s;
 }
+}
+@media (max-width: 400px) {
+    .card{
+        width: 70vw;
+        height: 45vh;
+    
+    }
 }
 @media (max-width: 370px) {
     
