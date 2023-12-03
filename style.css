@@ -13,7 +13,7 @@ body {
     height: 100%;
     font-family: 'Open Sans', sans-serif;
     /* font-family: 'Roboto', sans-serif; */
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 /* .header{
@@ -373,9 +373,7 @@ a.close {
         position: absolute;
     }
 
-    .overFl {
-        overflow: hidden;
-    }
+    
 
     .menu {
         display: block;

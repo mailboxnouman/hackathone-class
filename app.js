@@ -70,11 +70,13 @@ function showMenu(){
     navlinks.style.marginRight = "-200px";
     
     document.getElementById('shadow').className = "shadow"
-    document.getElementById('overFl').className = "overFl"
+    var body = document.getElementById("overFl");
+    body.style.overflow = "hidden";
 }
 function hideMenu(){
     navlinks.style.marginRight = "0px";
 
     document.getElementById('shadow').className = "navHide"
-    document.getElementById('overFl').className = ""
+    var body = document.getElementById("overFl");
+    body.style.overflow = "scroll";
 }
