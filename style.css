@@ -524,16 +524,20 @@ a.close {
     justify-content: center;
     /* align-items: center; */
     height: 65vh;
+    margin: 80px 0;
+
 }
 
 .coaching-main {
-    width: 40vw;
+    width: 50vw;
     transition: 1s;
+    overflow: hidden;
 }
 
 .coaching-content {
+    padding-left: 10vw;
     align-self: center;
-    width: 40vw;
+    width: 50vw;
     transition: 1s;
     /* margin-left: 200px; */
     
@@ -542,7 +546,6 @@ a.close {
 
 .coaching-main img {
     max-height: 65vh;
-    padding-left: 100px;
     transition: 1s;
     
     /* height: 100%;
@@ -555,6 +558,231 @@ a.close {
     line-height: 1.5;
     padding-top: 20px;
 }
+/* solution section */
+.container .solution{
+    padding: 80px 0;
+
+}
+.sol-sec-1{
+    display: flex;
+    justify-content: center;
+}
+
+.solution-img,.solution-content{
+    width: 40vw;
+}
+.solution-img{
+    width: 570px;
+    height: 510px;
+}
+.solution-img img{
+    width: 570px;
+    height: 510px;
+    object-fit: cover;
+}
+ .solution-content{
+    padding: 40px 30px;
+    background-color: #34365A;
+    height: 420px;
+    width: 570px;
+    color: white;  
+ }
+.solution-text{
+    margin-top: 20px;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.6;
+    color: rgb(255, 255, 255);
+}
+.s-solution{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.1rem;
+    line-height: 1.1;
+    font-weight: 700;
+}
+.solution-btn{
+    padding: 20px 40px;
+        border-radius: 35px;
+        border: 2px solid white;
+        font-size: 1rem;
+        letter-spacing: 1px;
+        font-weight: 600;
+        color: white;
+        background-color:#34365A;
+        margin: 0 10px;
+}
+.solution-btn:hover{
+    padding: 20px 40px;
+        border-radius: 35px;
+        border: 2px solid white;
+        font-size: 1rem;
+        letter-spacing: 1px;
+        font-weight: 600;
+        color: #34365A;
+        background-color:#ffffff;
+        margin: 0 10px;
+}
+.frm-s {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    line-height: 5;
+    font-weight: 400;
+}
+.frm-s a {
+    text-decoration: none;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+
+.sol-sec-2{
+    display: flex;
+    justify-content: center;
+}
+.solution-img-2 img{
+    object-fit: cover;
+    width: 250px;
+    height: 300px;
+}
+.solution-img-2{
+    width: 250px;
+    height: 300px;
+}
+
+.solution-content-2{
+    width: 320px;
+    height: 300px;
+    padding: 40px 30px;
+    background-color: #FEC401;
+    color: black;  
+ }
+ .solution-landscape-2 img{
+    object-fit: cover;
+    width: 570px;
+    height: 390px;
+}
+ .solution-landscape-2{
+    margin-top: -90px;
+    width: 570px;
+    height: 390px;
+    object-fit: cover;
+ }
+.solution-text-2{
+    margin-top: 20px;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.6;
+    color: black;
+}
+.s-solution-2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.2rem;
+    line-height: 1.1;
+    font-weight: 700;
+}
+/* Team section */
+.container .team{
+    overflow: hidden;
+    /* padding: 80px 0; */
+}
+.team-img{
+    width: 100vw;
+    background-color: #34365A;
+    
+}
+.team-img img{
+    width: 100vw;
+    object-fit: cover;
+    height: 80vh;
+    
+}
+.team-content{
+    background-color: #34365A;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 430px;
+}
+.team-content-box{
+    margin-top: -120px;
+    background-color: white;
+    padding: 30px 60px;
+    width: 700px;
+    height: 430px;
+}
+.team-text{
+    margin-top: 20px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 1.6;
+    color: rgb(0, 0, 0);
+}
+.s-team{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.8rem;
+    line-height: 1.5;
+    font-weight: 700;
+}
+/* Acheivement section */
+.container .acheivement{
+    background-color: #34365A;
+    
+}
+.s-acheivement{
+    text-align: center;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3rem;
+    line-height: 1.1;
+    font-weight: 700;
+}
+.acheive-box{
+    display: flex;
+    justify-content: space-around;
+}
+.acheive-box div{
+    width: 230px;
+    height: 260px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.acheive-p{
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: #5a5a5a;
+}
+.acheive-h{
+    font-weight: 900;
+    font-size: 72px;
+    letter-spacing: 2px;
+    color: #F1BB13;
+    margin: 20px 60px 0px 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
