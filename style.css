@@ -1,7 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Roboto:wght@400;500;700&display=swap');
+@keyframes hovRotate {
+    from{transform: rotate(360deg);}
+    to{transform: rotate(0deg);}
+    
+}
+.hovRotate:hover{
+    animation-name: hovRotate;
+    animation-duration: 2.5s;
 
-
-
+}
 * {
     box-sizing: border-box;
     margin: 0;
@@ -123,6 +130,7 @@ a.close {
 .main {
     width: 50vw;
     transition: 1s;
+    
 }
 
 .content {
@@ -135,8 +143,8 @@ a.close {
 
 .main img {
     max-height: 60vh;
-    transition: 1s;
     
+    transition: 1s;
     /* height: 100%;
     width: 100%; */
     /* object-fit: cover; */
@@ -155,6 +163,7 @@ a.close {
     font-size: 3.3rem;
     line-height: 1.1;
     font-weight: 700;
+    
 }
 
 .frm {
@@ -168,6 +177,8 @@ a.close {
     padding: 20px 50px;
     border-radius: 35px;
     font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 2px;
     color: white;
     background-color: rgb(48, 43, 43);
 }
@@ -191,7 +202,11 @@ a.close {
 .help {
     text-align: center;
 }
-
+.help p{
+    width: 50vw;
+    margin: 0 auto;
+    font-size: 1.3rem;
+}
 .italic-p {
     font-style: italic;
     width: 80vw;
@@ -201,7 +216,8 @@ a.close {
 .container h1 {
     font-size: 3rem;
     line-height: 2;
-    transition: 1s;
+    /* animation-name: textSmtoLg;
+    animation-duration: 1.5s; */
 }
 
 .card-section {
@@ -288,10 +304,17 @@ a.close {
 .learn-btn {
     padding: 20px 50px;
     border-radius: 35px;
+    font-weight: 600;
     font-size: 1rem;
     color: rgb(0, 0, 0);
     background-color: transparent;
     border: 3px solid black;
+}
+.learn-btn:hover {
+    
+    color: black;
+    background-color: white;
+    border: 3px solid white;
 }
 
 /* Working Section */
@@ -722,6 +745,28 @@ a.close {
     line-height: 1.5;
     font-weight: 700;
 }
+.team-btn{
+    padding: 20px 40px;
+        border-radius: 35px;
+        border: 2px solid #34365A;
+        font-size: 1rem;
+        letter-spacing: 1px;
+        font-weight: 600;
+        color: white;
+        background-color:#34365A;
+        margin: 0 10px;
+}
+.team-btn:hover{
+    padding: 20px 40px;
+        border-radius: 35px;
+        border: 2px solid #34365A;
+        font-size: 1rem;
+        letter-spacing: 1px;
+        font-weight: 600;
+        color: #34365A;
+        background-color:white;
+        margin: 0 10px;
+}
 /* Acheivement section */
 .container .acheivement{
     background-color: #34365A;
@@ -805,6 +850,7 @@ a.close {
     color: white;
     display: flex;
     justify-content: center;
+    padding: 40px 0;
 }
 .get-in,.call-us,.form{
     width: 380px;
@@ -830,15 +876,151 @@ a.close {
     font-weight: 400;
     margin: 20px 0;
 }
+.call-us-h2{
+    font-size: 1.1rem;
+    letter-spacing: 3px;
+    font-weight: 700;
+    line-height: 2;
+}
+.form-text input {
+    padding: 15px;
+    font-size: 1rem;
+    margin: 10px 0;
+    width: 320px;
+}
+.form-text input::placeholder{
+    font-size: 1.1rem;
+}
+.form-text input, .form-textbox textarea:focus{
+    outline: 0;
+}
+.form-textbox textarea{
+    font-size: 1rem;
+    padding: 15px;
+    margin: 10px 0;
+    width: 320px;
 
+}
+.form-btn{
+    text-align: center;
+    width: 320px;
+    padding: 10px 40px;
+    border-radius: 35px;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: black;
+    border: 2px solid #F3C536;
+    background-color: #F3C536; 
+}
+.form-btn:hover{
+    color: white;
+    border: 2px solid #5a5a5a;
+    background-color: #5a5a5a; 
+}
 
+/* Footer Section */
 
+.container .footer{
+    text-align: center;
+    background-color: #5a5a5a;
+    height: 190px;
+    color: white;
+    letter-spacing: 1px;
+}
+p.footer-text{
+    padding: 40px 0;
+}
+p.footer-credit{
+    padding: 25px 0;
+}
+p.footer-credit a{
+    color: white;
+    font-weight: 600;
 
+}
 
+/* @keyframes textSmtoLg {
+    from{font-size: 0.1rem;}
+    to{font-size: 3rem;}
+}
+@keyframes margin {
+    from{margin-top: 200px;}
+    to{margin-top: 0;}
+}
+@keyframes textLtoR {
+    from{margin-left: 200px;
+    font-size: 1rem;}
+    to{margin-left: 0px;}
+}
+@keyframes imgLtoR {
+    from{margin-left: -400px;}
+    to{margin-left: 0px;}
+}
+@keyframes textRtoL {
+    from{margin-right: 300px;}
+    to{margin-right: 0px;}
+}
+@keyframes textTtoB {
+    from{margin-bottom: 300px;}
+    to{margin-bottom: 0px;}
+}
+@keyframes textBtoT {
+    from{margin-top: 200px;}
+    to{margin-top: 0px;}
+}
+@keyframes textInvisible {
+    from{color: transparent;}
+    to{color: black;}
+}
+@keyframes imgRotate {
+    from{transform: rotate(90deg);
+    max-height: 10vh;
+border-radius: 50%;}
+    to{transform: rotate(0deg);
+    max-height: 60vh;}
+    
+}
 
-
-
-
+.rotate{
+    animation-name: textSmtoLg;
+    animation-duration: 1.5s;
+    
+}
+.margin{
+    animation-name: margin;
+    animation-duration: 1.5s;
+}
+.textLtoR{
+    animation-name: textLtoR;
+    animation-duration: 1.5s;
+}
+.textRtoL{
+    animation-name: textRtoL;
+    animation-duration: 1.5s;
+}
+.textTtoB{
+    animation-name: textTtoB;
+    animation-duration: 1.5s;
+}
+.textBtoT{
+    animation-name: textBtoT;
+    animation-duration: 1.5s;
+}
+.textInvisible{
+    animation-name: textInvisible;
+    animation-duration: 3s;
+}
+.imgRotate{
+    animation-name: imgRotate;
+    animation-duration: 1.5s;
+    
+}
+.imgLtoR{
+    animation-name: imgLtoR;
+    animation-duration: 1.5s;
+    
+} */
 
 
 
