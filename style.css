@@ -37,6 +37,12 @@ body {
 /* .container {
     overflow: hidden;
 } */
+#screen{
+    position: fixed;
+    width: 100vw;
+    z-index: 999;
+
+}
 
 .page-preview {
     border-radius: 0;
@@ -1487,8 +1493,10 @@ border-radius: 50%;}
     }
 
     .closeNav {
-        text-align: right;
+        margin-left: 130px;
+        width: 70px;
         padding: 20px;
+        cursor: pointer;
     }
 
 
@@ -2436,8 +2444,10 @@ border-radius: 50%;}
     }
 
     .closeNav {
-        text-align: right;
+        margin-left: 130px;
+        width: 70px;
         padding: 20px;
+        cursor: pointer;
     }
 
 
@@ -2948,8 +2958,10 @@ border-radius: 50%;}
     }
 
     .closeNav {
-        text-align: right;
+        margin-left: 130px;
+        width: 70px;
         padding: 20px;
+        cursor: pointer;
     }
 
     .navbar {
@@ -3500,8 +3512,10 @@ border-radius: 50%;}
     }
 
     .closeNav {
-        text-align: right;
+        margin-left: 130px;
+        width: 70px;
         padding: 20px;
+        cursor: pointer;
     }
 
     .navbar {
@@ -4156,8 +4170,10 @@ border-radius: 50%;}
     }
 
     .closeNav {
-        text-align: right;
+        margin-left: 130px;
+        width: 70px;
         padding: 20px;
+        cursor: pointer;
     }
 
 
@@ -4283,8 +4299,10 @@ border-radius: 50%;}
     }
 
     .closeNav {
-        text-align: right;
+        margin-left: 130px;
+        width: 70px;
         padding: 20px;
+        cursor: pointer;
     }
 
 
@@ -5018,8 +5036,10 @@ border-radius: 50%;}
     }
 
     .closeNav {
-        text-align: right;
+        margin-left: 130px;
+        width: 70px;
         padding: 20px;
+        cursor: pointer;
     }
 
 
@@ -5145,8 +5165,10 @@ border-radius: 50%;}
     }
 
     .closeNav {
-        text-align: right;
+        margin-left: 130px;
+        width: 70px;
         padding: 20px;
+        cursor: pointer;
     }
 
 
@@ -5897,8 +5919,10 @@ border-radius: 50%;}
     }
 
     .closeNav {
-        text-align: right;
+        margin-left: 130px;
+        width: 70px;
         padding: 20px;
+        cursor: pointer;
     }
 
     .navbar {
