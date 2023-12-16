@@ -60,6 +60,7 @@ function mobileTg(){
 
 function hideScreen(){
     document.getElementById('screen').className = "hideScreen"
+    document.getElementById('forFixTop').className = "hideScreen"
 }
 
 
